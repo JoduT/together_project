@@ -32,6 +32,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"/>
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginVertical="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/stebButton"
+        app:layout_constraintTop_toBottomOf="@+id/textResult"
+        tools:layout_editor_absoluteX="16dp">
+        <TextView
+            android:id="@+id/textHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="hkljdgklja;fljalkjdf"/>
+    </ScrollView>
+
     <com.google.android.material.slider.Slider
         android:id="@+id/stebButton"
         android:layout_width="wrap_content"
